@@ -1,0 +1,14 @@
+{
+  "name":        "server",
+  "monitortype": "ssh",
+  "user":        "cheynium",
+  "privatekey":  "/home/default/cheynium/keys/somekey.key",
+  "interval":    "60",
+  "timeunit":    "seconds",
+  "timeout":     "5",
+  "module":      "diskusage",
+  "notify":      "onabove",
+  "email":       "none",
+  "hostname":    "server-fqdn",
+  "folder":      "/var"
+}

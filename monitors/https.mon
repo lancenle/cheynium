@@ -1,0 +1,13 @@
+{
+  "name":        "urlname-test-https",
+  "monitortype": "https",
+  "interval":    "60",
+  "timeunit":    "seconds",
+  "module":      "none",
+  "notify":      "onfailure",
+  "email":       "none",
+  "port":        "80",
+  "response":    "200",
+  "timeout":     "5",
+  "url":         "https://urlname-test.com"
+}
