@@ -9,5 +9,5 @@
   "port":        "80",
   "response":    "200",
   "timeout":     "5",
-  "url":         "https://urlname-test.com"
+  "url":         "https://someaddress.com"
 }

@@ -1,3 +1,3 @@
 ./cheynium.py --debug
-./cheynium.py --ini ./cheynium.ini
-./cheynium.py --debug --ini ./cheynium.ini
+./cheynium.py --ini ../configs/cheynium.ini
+./cheynium.py --debug --ini ../configs/cheynium.ini

@@ -1,14 +1,14 @@
 {
-  "name":        "server",
+  "name":        "Server disk check",
   "monitortype": "ssh",
-  "user":        "cheynium",
-  "privatekey":  "/home/default/cheynium/keys/somekey.key",
+  "user":        "ubuntu",
+  "privatekey":  "/home/default/AmazonAWS/somekey.pem",
   "interval":    "60",
   "timeunit":    "seconds",
   "timeout":     "5",
   "module":      "diskusage",
   "notify":      "onabove",
   "email":       "none",
-  "hostname":    "server-fqdn",
+  "hostname":    "fqdn-of-host",
   "folder":      "/var"
 }

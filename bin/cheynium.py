@@ -162,6 +162,20 @@ def ProcessSSHDiskUsageMonitor(jsonMonitorData):
 
 
 
+# Checks if server is up and running on server
+def ProcessSSHProcessCheckMonitor(jsonMonitorData):
+   sHostname         = str(jsonMonitorData['hostname'])
+   sFolder           = str(jsonMonitorData['folder'])
+   sPrivateKey       = str(jsonMonitorData['privatekey'])
+   sUser             = str(jsonMonitorData['user'])
+   nInterval         = jsonMonitorData['interval']
+   sTimeUnit         = str(jsonMonitorData['timeunit'])
+
+
+   LogDebug(sCommand)
+
+
+
 
 # Main entry point.
 # loop through directory containing monitor configurations specified in the ini file
@@ -280,6 +294,7 @@ for filename in os.scandir(sDirMonitors):
 #   //connections
 #   //bandwidth
 #   //services
+#   //process running
 
 
 # Write condition of monitor to database
